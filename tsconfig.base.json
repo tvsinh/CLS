@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "jsx": "preserve",
+    "jsxImportSource": "vue",
+    "strict": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "useDefineForClassFields": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "@mono/shared": ["./packages/shared/src"],
+      "@mono/shared/*": ["./packages/shared/src/*"]
+    },
+    "types": ["vite/client"]
+  }
+}
